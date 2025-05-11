@@ -84,8 +84,45 @@ In `backend/package.json`:
 }
 ```
 
-Run both servers:
+## Frontend Folder 
 
-```bash
-npm start
-```
+# ✅ `public/` folder (mostly static stuff)
+
+* Contains files that **don’t get processed by Webpack**.
+* Mostly used for:
+
+  * `index.html` – The single HTML page where your React app is injected.
+  * `favicon.ico`, logos – Browser tab icon and static branding assets.
+  * Any publicly accessible static files (e.g., manifest, images, etc.).
+* **You rarely edit this folder except maybe the HTML title or favicon.**
+
+---
+
+# ✅ `src/` folder (main development area)
+
+This is where **95% of your work** happens.
+
+Key areas include:
+
+| File/Folder             | Purpose                                                        |
+| ----------------------- | -------------------------------------------------------------- |
+| `index.js`              | Entry point – renders your app into `index.html`.              |
+| `App.js`                | Main app component – acts as a container for all routes/pages. |
+| `components/`           | Reusable UI components (buttons, cards, navbars, etc.).        |
+| `pages/` or `views/`    | Full pages/screens of the app (like Home, Dashboard, Login).   |
+| `assets/`               | Custom images, styles, or icons used in components.            |
+| `services/`             | API calls via Axios (for backend communication).               |
+| `context/` or `store/`  | State management using Context API, Redux, etc.                |
+| `App.css` / `index.css` | Global stylesheets (can be customized).                        |
+
+---
+
+# 🛠️ What You Typically Update in `src/`:
+
+* Add routes to new pages (`React Router`).
+* Create and update components.
+* Connect to backend APIs using Axios.
+* Manage global or local state.
+* Apply styling or animations.
+
+---
