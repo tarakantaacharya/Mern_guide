@@ -18,10 +18,6 @@ mern-app/
 │   └── package.json
 ```
 
-````
-
----
-
 ## 🧰 Tech Stack
 
 - **MongoDB** – Database
@@ -29,11 +25,11 @@ mern-app/
 - **React.js** – Frontend UI
 - **Node.js** – Runtime environment
 
----
 
 ## 🛠️ Setup Instructions
 
 ### 1. Create the Project Root
+
 ```bash
 mkdir mern-app
 cd mern-app
@@ -93,5 +89,3 @@ Run both servers:
 ```bash
 npm start
 ```
-
----
