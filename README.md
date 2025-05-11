@@ -1,14 +1,11 @@
-```markdown
 # MERN Stack Starter Setup
 
 This guide outlines how to create and start a MERN (MongoDB, Express, React, Node.js) stack project using basic folder structure and command-line steps.
 
----
 
 ## 📁 Folder Structure
 
 ```
-
 mern-app/
 ├── backend/         # Node.js + Express + MongoDB API
 │   └── node_modules
@@ -19,6 +16,7 @@ mern-app/
 │   └── public/
 │   └── .gitignore
 │   └── package.json
+```
 
 ````
 
