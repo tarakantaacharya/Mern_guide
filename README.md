@@ -84,9 +84,9 @@ In `backend/package.json`:
 }
 ```
 
-### Frontend Folder 
+## Frontend Folder 
 
-## ✅ `public/` folder (mostly static stuff)
+### ✅ `public/` folder (mostly static stuff)
 
 * Contains files that **don’t get processed by Webpack**.
 * Mostly used for:
@@ -98,7 +98,7 @@ In `backend/package.json`:
 
 ---
 
-## ✅ `src/` folder (main development area)
+### ✅ `src/` folder (main development area)
 
 This is where **95% of your work** happens.
 
@@ -117,7 +117,7 @@ Key areas include:
 
 ---
 
-## 🛠️ What You Typically Update in `src/`:
+### 🛠️ What You Typically Update in `src/`:
 
 * Add routes to new pages (`React Router`).
 * Create and update components.
