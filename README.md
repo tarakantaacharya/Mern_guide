@@ -126,3 +126,45 @@ Key areas include:
 * Apply styling or animations.
 
 ---
+
+```
+🗂️ MERN Stack Folder Structure (Most Commonly Used)
+bash
+Copy
+Edit
+mern-app/
+├── backend/
+│   ├── config/             # DB config, environment setup
+│   │   └── db.js
+│   ├── controllers/        # Business logic for routes
+│   │   └── authController.js
+│   ├── models/             # Mongoose schemas/models
+│   │   └── User.js
+│   ├── middleware/         # Auth, error handlers, etc.
+│   │   └── authMiddleware.js
+│   ├── routes/             # API routes
+│   │   └── authRoutes.js
+│   ├── utils/              # Helper functions (e.g., sendEmail.js, validators.js)
+│   ├── .env                # Environment variables
+│   ├── server.js           # Express app entry point
+│   └── package.json
+│
+├── frontend/
+│   ├── public/             # Static HTML, favicon, manifest
+│   │   └── index.html
+│   ├── src/
+│   │   ├── assets/         # Images, CSS, logos
+│   │   ├── components/     # Reusable UI components
+│   │   │   └── Navbar.js
+│   │   ├── pages/          # Full pages/screens (Login, Dashboard)
+│   │   │   └── Login.js
+│   │   ├── services/       # Axios API services (e.g., api.js)
+│   │   ├── context/        # React Context or Redux for global state
+│   │   ├── App.js          # Main app component
+│   │   ├── index.js        # Entry point
+│   │   └── App.css / index.css
+│   └── package.json
+│
+├── .gitignore
+├── README.md
+```
